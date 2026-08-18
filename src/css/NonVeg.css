@@ -1,0 +1,73 @@
+
+
+/* src/css/NonVeg.css */
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+
+/*.nonveg-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.nonveg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nonveg-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nonveg-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nonveg-card img {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.nonveg-card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.nonveg-card p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.nonveg-card button {
+  background: #d9534f; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.nonveg-card button:hover {
+  background: #c9302c;
+}*/

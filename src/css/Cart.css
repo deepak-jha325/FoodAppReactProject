@@ -1,0 +1,49 @@
+/* Cart Layout */
+.cart-container {
+  text-align: center;
+  padding: 80px;
+}
+
+/* Button Styling */
+.order-btn {
+  background-color: #28a745;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* SweetAlert Custom Styling */
+.swal-popup {
+  width: 600px;
+  padding: 3em;
+  background: #f9f9f9;
+}
+
+.swal-title {
+  font-size: 34px;
+  font-weight: bold;
+  color: #222;
+}
+
+.swal-text {
+  font-size: 24px;
+  color: #444;
+}
+
+.swal-btn {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: #28a745;
+}
