@@ -9,6 +9,7 @@ function Home() {
     <center>
    
     <img src={homeImage} alt="Veg Items" width="1100"  height="650"/>
+    <h6>after first git push changes</h6>
     </center>
     </>
   )
