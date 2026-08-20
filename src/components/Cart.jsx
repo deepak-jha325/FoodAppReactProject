@@ -2,7 +2,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { FaPlus, FaMinus, FaTrash, FaShoppingCart } from 'react-icons/fa'
-import { addToCart, removeOne, removeAll } from '../redux/CartSlice'
+import { addToCart, removeOne, removeAll } from '../redux/cartSlice'
 import { useNavigate } from 'react-router-dom'
 
 function Cart() {
